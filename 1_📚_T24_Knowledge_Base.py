@@ -14,6 +14,8 @@ region_name = os.getenv("region_name")
 knowledgebase_id = os.getenv("KNOWLEDGEBASE_ID")
 model_id = os.getenv("MODEL_ID")
 
+st.set_page_config(layout="wide")
+
 st.sidebar.image("logo.png")  # Adjust width as needed
 st.subheader('ITS3 - T24 Knowledge Assistant', divider='rainbow')
 
@@ -48,8 +50,6 @@ def getAnswers(questions):
 # Display the logo at the top of the page
 # Display the logo at the top of the sidebar
 #st.add_logo("logo.png", width=100)  # Adjust the width as needed
-
-
 
 questions = st.chat_input('Enter your questions here...')
 if questions:
