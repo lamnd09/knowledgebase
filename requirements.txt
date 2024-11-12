@@ -1,0 +1,7 @@
+python-dotenv
+streamlit
+PyPDF2
+docx
+boto3
+opensearch-py 
+elasticsearch
