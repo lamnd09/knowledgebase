@@ -15,7 +15,6 @@ knowledgebase_id = os.getenv("KNOWLEDGEBASE_ID")
 model_id = os.getenv("MODEL_ID")
 
 st.set_page_config(layout="wide")
-
 st.sidebar.image("logo.png")  # Adjust width as needed
 st.subheader('ITS3 - T24 Knowledge Assistant', divider='rainbow')
 
